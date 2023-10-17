@@ -1,0 +1,85 @@
+
+.main{
+  display:flex;
+}
+input{
+  border:none;
+  width: 370px;
+  margin: 10px  0 5px 5px;
+  font-size: 15px;
+  outline: none;
+}
+.form{
+  margin:30px 0 0 100px;
+  width: 50%;
+  height: 100%;
+}
+ h2, h3{
+  font-size: xx-large;
+}
+.logo{
+  width: 20px;
+  height: 20px;
+  margin: 8px 3px 0 8px;
+}
+.logo1{
+  width: 3vw;
+  height: 5vh;
+  margin:7px 7px 0 0;
+}
+.data {
+  display: flex;
+  border-radius: 30px;
+  border: 2px solid black;
+  width:420px ;
+  margin-bottom: 5px;
+
+}
+ label{
+  display: block;
+}
+.info{
+  width:50%;
+  height: 100%;
+  margin: 200px 0 0 0;
+}
+button{
+  margin: 30px 40px 0 150px;
+  border-radius: 30px;
+  background-color: rgb(113, 195, 247);
+  color: azure;
+  border: 1px;
+  height: 30px;
+  width: 100px;
+}
+div.one{
+  margin-top: 10px;
+  display: flex;
+}
+h3{
+  margin: 0;
+}
+p{
+  color:#e7decc;
+  display: block;
+  margin-left: 50px;
+}
+#name,#mail,#number,#message{
+  /* margin-top: 10px; */
+  margin-bottom: 10px;
+}
+form{
+  margin-top: 30px;
+}
+#message{
+  border: none ;
+  border-bottom: 2px solid black;
+}
+@media screen and (max-width:960px){
+  .main{
+    display: block;
+  }
+  .info{
+    margin: 50px 0 0 100px;
+  }
+}
